@@ -74,10 +74,7 @@ class APIRequestHandler(object):
             proxies=self.proxies,
         )
         if r.status_code == 200:
-            data = json.loads(r.text)
-            if data.get("success", False) == False:
-                return {}
-            return data
+            return json.loads(r.text)
         return {}
 
 
