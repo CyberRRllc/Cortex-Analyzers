@@ -2761,7 +2761,7 @@
       "required": false
     }
   ],
-  "dockerImage": "cortexneurons/googlevisionapi_webdetection:1"
+  "dockerImage": "localhost:5000/cortexneurons/googlevisionapi_webdetection:1-cyberrr-1"
 }
 ,
 {
@@ -4231,7 +4231,7 @@
       "required": true
     }
   ],
-  "dockerImage": "cortexneurons/metadefendercloud_reputation:1"
+  "dockerImage": "localhost:5000/cortexneurons/metadefendercloud_reputation:1-cyberrr-1"
 }
 ,
 {
@@ -8844,7 +8844,7 @@
     "url"
   ],
   "baseConfig": "UnshortenLink",
-  "dockerImage": "cortexneurons/unshortenlink:1"
+  "dockerImage": "localhost:5000/cortexneurons/unshortenlink:1-cyberrr-1"
 }
 ,
 {
